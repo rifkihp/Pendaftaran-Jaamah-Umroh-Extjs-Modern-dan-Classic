@@ -1,0 +1,40 @@
+.mapeldiajar {
+    background-color: #fff;
+
+    .mapeldiajar-item {
+        background-color: #fff;
+        padding: 10px;
+    }
+
+    .mapeldiajar-item-selected {
+
+        .mapeldiajar-item {
+            background-color: #fff;
+        }
+    }
+
+    .item-select {
+        background-color: #fff;
+    }
+
+    .table {
+        width: 100%;
+        //margin-bottom: 1rem;
+        background-color: transparent;
+        //border: 1px solid #dee2e6;
+        border-collapse: collapse;
+        display: table;
+        box-sizing: border-box;
+        text-indent: initial;
+        border-spacing: 2px;
+    }
+
+    .table th,
+    .table td {
+        text-align: left;
+        border: 1px solid #dee2e6;
+        font-size: 14px;
+        padding: 5px 10px;
+        color: #000;
+    }
+}

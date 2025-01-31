@@ -1,0 +1,183 @@
+.lembar-soal {
+
+    .lembar-soal-item {
+        background-color: transparent;
+        padding: 0 10px 0 0;
+    }
+
+    img {
+        min-width: 100%;
+        max-width: 100%;
+    }
+
+    .pertanyaan, .pembahasan {
+        width: 100%;
+    }
+
+    .title {
+        padding: 0 0 0 15px; 
+        font-weight: bold;    
+    }
+
+    audio {
+        max-width: 100%;
+    }
+    
+    ol {
+        
+        list-style-position: outside;
+    }
+    
+    .table {
+        width: 100%;
+        border: none;
+        border-collapse: collapse;
+        display: table;
+    }
+
+    .table th,
+    .table td {
+        border: none;
+        display: table-cell;
+        vertical-align: top; 
+    }
+
+    .table td p {
+        margin: 5px 0 5px 0;
+        padding: 0;
+    }
+
+
+    .lembar-jawab-item {
+        background-color: transparent;
+    }
+
+    .x-focused, .x-selected {
+        
+        .btn-default-odd, .btn-default-even {
+            background-color: #ffefbb;
+        }
+    }
+
+    .btn {
+        -moz-user-select: none;
+        user-select: none;
+        background-image: none;
+        border: 1px solid transparent;
+        border-radius: 4px;
+        cursor: pointer;
+        display: inline-block;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 1.42857;
+        margin-top: 10px;
+        margin-right: 5px;
+        margin-bottom: 5px;
+        margin-left: 10px;
+        padding: 8px 16px;
+        text-align: center;
+        vertical-align: middle;
+        white-space: nowrap;
+        text-decoration: none;
+        position: relative;
+        width:45px; /* or whatever width you want. */
+        max-width:45px; /* or whatever width you want. */
+        height:40px; /* or whatever width you want. */
+        max-height:40px; /* or whatever width you want. */
+    }
+    .btn-success {
+        background-color: #5cb85c;
+        border-color: #4cae4c;
+        color: #fff;
+    }
+    .badge {
+        background-color: #777;
+        border-radius: 10px;
+        color: #fff;
+        display: inline-block;
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 1;
+        min-width: 10px;
+        padding: 3px 7px;
+        text-align: center;
+        vertical-align: middle;
+        white-space: nowrap;
+    }
+    .radius-0 {
+        border-radius: 0 !important;
+    }
+    span.badge-dark {
+        background: #555 !important;
+    }
+    .badge.badge-corner {
+        color: #fff !important;
+        position: absolute !important;
+        left: -6px !important;
+        top: -8px !important;
+    }
+    .btn-danger {
+        background-color: #d9534f;
+        border-color: #d43f3a;
+        color: #fff;
+    }
+    .btn-info {
+        background-color: #5bc0de;
+        border-color: #46b8da;
+        color: #fff;
+    }
+    .btn-warning {
+        background-color: #f0ad4e;
+        border-color: #eea236;
+        color: #fff;
+    }
+    .btn-clean {
+        color: #555;
+    }
+    span.badge-aqua {
+        background: #27d7e7 none repeat scroll 0 0 !important;
+    }
+    span.badge-dark {
+        background: #555 none repeat scroll 0 0 !important;
+    }
+    span.badge-purple{
+        background: #9b6bcc none repeat scroll 0 0 !important;
+    }
+    span.badge-yellow {
+        background: #f1c40f none repeat scroll 0 0 !important;
+    }
+    .size-20 {
+        font-size: 20px !important;
+        line-height: 26px !important;
+    }
+    .btn-default {
+        background-color: #D6EAF8;
+        border-color: #ccc;
+        color: #333;
+        font-weight: bold;
+    }
+
+    .btn-default-odd {
+        background-color: #f6f6f6;
+        border-color: #ccc;
+        color: #333;
+        font-weight: bold;
+    }
+
+    .btn-default-even {
+        background-color: #fff;
+        border-color: #ccc;
+        color: #333;
+        font-weight: bold;
+    }
+
+    span.badge-green{
+        background: #2ecc71 none repeat scroll 0 0 !important;
+    }
+    span.badge-red{
+        background: #e74c3c none repeat scroll 0 0 !important;
+    }
+    .radius-3 {
+        border-radius: 3px !important;
+    }
+}

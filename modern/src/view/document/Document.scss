@@ -1,0 +1,99 @@
+.document {
+    background-color: #f6f6f6;
+
+    .document-item {
+        margin: 10px;
+    }
+
+    .item-odd {
+        background-color: #f6f6f6;
+        border: 1px solid #dee2e6;
+        padding: 10px;
+    }
+    
+    .item-even {
+        background-color: #fff;
+        border: 1px solid #dee2e6;
+        padding: 10px;
+    }
+
+    .x-focused, .x-selected {
+        .item-odd, .item-even {
+            background-color: #ffefbb;
+        }
+    }
+
+    .edit-btn {
+        background-color: orange;
+        margin-right: 5px;
+    }
+
+    .hapus-btn {
+        background-color: #aa0404;
+    }
+
+    /* Set a style for all buttons */
+    button {
+        background-color: #04AA6D;
+        color: white;
+        padding: 5px 10px 5px 10px;
+        border: none;
+        cursor: pointer;
+        opacity: 0.9;
+    }
+
+    .selector-aktif {
+        margin-top:0.4rem;
+        position:absolute;
+        left:10px;
+        right:10px;
+    }
+
+    .selector {
+        margin-top:0.4rem;
+        position:absolute;
+        bottom:10px;
+        right:10px;
+    }
+    
+    button:hover {
+        opacity:1;
+    }
+
+    .title {
+        color: #2a2839;
+        font-weight: 500;
+        font-size: 0.9rem;
+    }
+
+    p {
+        color: #4f4f4f;
+        font-family: sans-serif;
+        line-height: 1;
+        margin-top:0.04rem;
+        font-size: .9rem;
+    }
+
+    a {
+        color: #1e90ff;
+        font-weight: 500;
+        font-size: 0.9rem;
+        margin-bottom: .3rem;
+        text-decoration: underline;
+        
+        // States
+        &:hover,
+        &:focus {
+            text-decoration: none;
+        }
+    }
+    
+    input[type="checkbox"] {
+        background-size: 16px;
+        background-repeat: no-repeat;
+        width: 16px;
+        height: 16px;
+        margin: 0;
+        font-size: .9rem;
+    }
+}

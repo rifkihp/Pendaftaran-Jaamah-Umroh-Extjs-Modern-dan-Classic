@@ -1,0 +1,120 @@
+.quiz {
+    background-color: #f6f6f6;
+
+    .quiz-item {
+        background-color: #fff;
+        padding: 10px;
+        margin: 10px;
+    }
+
+    .quiz-item-selected {
+
+        .quiz-item {
+            background-color: #fff;
+        }
+    }
+
+    .item-select {
+        background-color: #fff;
+    }
+
+    .table {
+        width: 100%;
+        margin-bottom: 0.5rem;
+        background-color: transparent;
+        //border: 1px solid #dee2e6;
+        border-collapse: collapse;
+        display: table;
+        box-sizing: border-box;
+        text-indent: initial;
+        border-spacing: 2px;
+    }
+
+    .table th,
+    .table td {
+        text-align: left;
+        border: 1px solid #dee2e6;
+        font-size: 14px;
+        padding: 5px 10px;
+        color: #000;
+
+        .left {
+            float: left;
+        }
+        
+        .right {
+            float: right;
+        }
+        
+        .center {
+            float: center;
+        }
+    }
+
+    input[type="checkbox"] {
+        background-size: 16px;
+        background-repeat: no-repeat;
+        width: 16px;
+        height: 16px;
+        margin: 0;
+      }
+
+
+    hr {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        border: 0;
+        border-top: 1px solid rgba(0,0,0,.1);
+    }
+    
+
+    /* Set a style for all buttons */
+    button {
+        background-color: #04AA6D;
+        color: white;
+        padding: 5px 15px 5px 15px;
+        border: none;
+        cursor: pointer;
+        opacity: 0.9;
+    }
+
+    .selector {
+        text-align: right;
+        
+        .space-left {
+            margin-left: 5px;
+        }
+
+        .space-right {
+            margin-right: 5px;
+        }
+
+        .edit {
+            background-color: #04AA6D;    
+        }
+
+        .delete {
+            background-color: #f44336;
+        }
+
+        .view {
+            background-color: #e49b0f;
+        }
+    }
+    
+    button:hover {
+        opacity:1;
+    }
+
+    .keterangan {
+        font-style: italic;
+        font-weight: 700;
+        font-size: 0.9em;
+        padding-bottom: 10px !important;
+        margin-top: 5px !important;
+    }
+
+    img {
+        max-width: 100%;
+    }
+}
